@@ -2,7 +2,7 @@
 
 A sleek, modern, and highly aesthetic Tic Tac Toe game built with vanilla HTML, CSS, and JavaScript. Featuring a stunning glassmorphism design, vibrant gradients, and smooth animations.
 
-![Tic Tac Toe Preview](https://via.placeholder.com/800x450/0b1020/ffffff?text=Premium+Tic+Tac+Toe+Preview)
+
 
 ## 🌟 Features
 
