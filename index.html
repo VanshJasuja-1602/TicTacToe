@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <main class="container">
+    <header class="header">
+      <h1>Tic Tac Toe</h1>
+      <p class="subtitle">X and O </p>
+    </header>
+
+    <section class="status-bar">
+      <div class="turn-indicator" id="turnIndicator">
+        <span class="dot"></span>
+        <span id="statusText">Player X's turn</span>
+      </div>
+      <button class="btn ghost" id="restartBtn">Restart</button>
+    </section>
+
+    <section class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </section>
+
+    <footer class="footer">
+      <small> Vansh  Jasuja</small>
+    </footer>
+  </main>
+
+  <!-- Popup Modal -->
+  <div class="modal" id="winnerModal">
+    <div class="modal-content">
+      <h2 id="winnerText"></h2>
+      <button class="btn" id="closeModal">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
